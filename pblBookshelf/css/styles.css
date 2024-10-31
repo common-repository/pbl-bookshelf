@@ -1,0 +1,62 @@
+#pblBookshelf-daddy{
+   height: 100px;
+    left: 25px;
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+	overflow: hidden;
+	width: 225px;
+	 z-index: 4;
+}
+
+#pblBookshelf-thumb{
+	background: url("images/book.png") no-repeat scroll 33px 1px transparent;
+    position: relative;
+	height: 100px;
+    width: 160px;
+    z-index: 3;
+	
+}
+
+
+#pblBookshelf-thumb img{
+	height: 89px;
+    margin-left: 70px;
+    position: relative;
+    top: 9px;
+    width: 89px;
+	border: 0;
+	padding: 0px;
+}
+
+#pblBookshelf-book{
+	height: 100px;
+    width: 260px;
+	position: relative;
+}
+
+#pblBookshelf-desc{
+	left: 55px;
+    position: relative;
+    top: -95px;
+    width: 105px;
+    z-index: 1;
+	opacity: 0;
+	text-decoration: none;
+}
+
+
+#pblBookshelf-desc p{
+	line-height: 1.3em;
+	font-size: 15px;
+}
+
+#pblBookshelf-bookself{
+	background: url("images/bookshelf.png") no-repeat scroll 0 0 transparent;
+	margin-top: -30px;
+    height: 92px;
+    width: 260px;
+	float: left;
+	position: relative;
+    z-index: 1;
+}
